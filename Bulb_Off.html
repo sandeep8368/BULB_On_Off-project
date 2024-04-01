@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/bulb.css'%}">
+    <title>My Basic Webpage</title>
+</head>
+<body>
+    <h1></h1>
+    <p></p>
+    <div id = "container">
+        <img src="{% static 'image/off.jpg' %}"alt="No image">
+        <form action = "/OnBulb" method = "post">
+            {% csrf_token %}
+            <input type = "Submit" value = "On Bulb" id ="btn">
+        </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+#btn
+{
+    background-color: red;
+    color:white;  /* Change 'white' to the color you prefer for text */
+    text-align: center;
+    margin-left: 135px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#Container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    color: red; /* Change 'blue' to the color you prefer */
+}
